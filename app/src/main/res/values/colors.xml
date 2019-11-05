@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="primaryAdd">#C8C8A9</color>
+    <color name="primaryItems">#F9CDAD</color>
+    <color name="primarySettings">#FC9D9A</color>
+    <color name="primaryNavBar">#83AF9B</color>
+    <color name="addButtonColor">#2A363B</color>
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">EWishApp</string>
+    <string name="itemInput">Item</string>
+    <string name="amountInputText">Amount</string>
+    <string name="priceInputText">Total Price</string>
+    <string name="eventInputText">Event?</string>
+    <string name="receiverInputText">Receiver</string>
+    <string name="boughtCheckBoxText">Bought?</string>
+    <string name="addButtonText">Add</string>
+</resources>
