@@ -6,7 +6,7 @@
     android:layout_marginTop="8dp"
     android:layout_marginStart="8dp"
     android:layout_marginEnd="8dp"
-    app:cardBackgroundColor="#FFFFE8">
+    app:cardBackgroundColor="@color/itemCardColor">
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -21,6 +21,7 @@
             android:maxLines="1"
             android:ellipsize="end"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/mainFontColor"
             />
         <TextView
             android:id="@+id/text_view_amount"
@@ -30,7 +31,7 @@
             android:layout_alignParentEnd="true"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:text="Amount"
-
+            android:textColor="@color/mainFontColor"
             />
         <TextView
             android:id="@+id/text_view_price"
@@ -39,6 +40,7 @@
             android:layout_alignParentStart="true"
             android:text="Price"
             android:layout_below="@id/text_view_item"
+            android:textColor="@color/mainFontColor"
             />
 
         <TextView
@@ -48,6 +50,7 @@
             android:layout_alignParentStart="true"
             android:text="Receiver"
             android:layout_below="@id/text_view_price"
+            android:textColor="@color/mainFontColor"
             />
 
         <TextView
@@ -57,8 +60,8 @@
             android:layout_alignParentStart="true"
             android:text="Event"
             android:layout_below="@id/text_view_receiver"
+            android:textColor="@color/mainFontColor"
             />
-
     </RelativeLayout>
 
 

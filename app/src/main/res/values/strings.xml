@@ -7,4 +7,6 @@
     <string name="receiverInputText">Receiver</string>
     <string name="boughtCheckBoxText">Bought?</string>
     <string name="addButtonText">Add</string>
+    <string name="editButtonText">Edit</string>
+    <string name="settingsText">Settings</string>
 </resources>

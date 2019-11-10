@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/primaryColor"
     tools:context=".ViewItemActivity">
-
     <EditText
         android:id="@+id/itemEditText"
         android:layout_width="277dp"
@@ -15,6 +15,7 @@
         android:hint="@string/itemInput"
         android:inputType="textPersonName"
         android:textSize="18sp"
+        android:textColor="@color/mainFontColor"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -28,6 +29,7 @@
         android:hint="@string/amountInputText"
         android:inputType="textPersonName"
         android:textSize="18sp"
+        android:textColor="@color/mainFontColor"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/itemEditText" />
@@ -41,6 +43,7 @@
         android:hint="@string/priceInputText"
         android:inputType="textPersonName"
         android:textSize="18sp"
+        android:textColor="@color/mainFontColor"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/amountEditText" />
@@ -54,6 +57,7 @@
         android:hint="@string/eventInputText"
         android:inputType="textPersonName"
         android:textSize="18sp"
+        android:textColor="@color/mainFontColor"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/priceEditText" />
@@ -67,6 +71,7 @@
         android:hint="@string/receiverInputText"
         android:inputType="textPersonName"
         android:textSize="18sp"
+        android:textColor="@color/mainFontColor"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/eventEditText" />
@@ -78,6 +83,7 @@
         android:layout_marginTop="20dp"
         android:text="@string/boughtCheckBoxText"
         android:textSize="18sp"
+        android:textColor="@color/mainFontColor"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.212"
         app:layout_constraintStart_toStartOf="parent"
@@ -87,9 +93,10 @@
         android:id="@+id/editButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/addButtonColor"
-        android:text="@string/addButtonText"
+        android:background="@drawable/custom_button"
+        android:text="@string/editButtonText"
         android:textSize="20sp"
+        android:textColor="@color/mainFontColor"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
