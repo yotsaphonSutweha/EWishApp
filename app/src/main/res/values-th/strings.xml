@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">EWishApp</string>
+    <string name="itemInput">สิ่งของ</string>
+    <string name="amountInputText">จำนวน</string>
+    <string name="priceInputText">ราคา</string>
+    <string name="eventInputText">อีเวนท์</string>
+    <string name="receiverInputText">คนรับ</string>
+    <string name="boughtCheckBoxText">ซื้อหรอยัง</string>
+    <string name="addButtonText">เพิ่ม</string>
+    <string name="editButtonText">แก้</string>
+    <string name="settingsText">การตั้งค่า</string>
+    <string name="appName">eWish</string>
+    <string name="mainThemeText">Main Theme</string>
+    <string name="christmasTheme">Christmas Theme</string>
+    <string name="valentineThemeText">Valentine Theme</string>
+    <string name="englishSwitchText">อังกฤษ</string>
+    <string name="thaiSwitchText">ไทย</string>
+    <string name="checkBtnText">ตรวจสอบของ</string>
+    <string name="itemCardItemFieldLebel">สิ่งของ</string>
+    <string name="itemCardPriceFieldLabel">ราคา</string>
+    <string name="itemCardReceiverFieldLabel">คนรับ</string>
+    <string name="itemCardEventFieldLabel">อีเวนท์</string>
+    <string name="itemCardAmountFieldLabel">จำนวน</string>
+</resources>

@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/primaryColor"
+    android:id="@+id/addFragment"
     >
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -23,7 +24,8 @@
             android:textColor="@color/mainFontColor"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            android:autofillHints="@string/itemInput" />
 
         <EditText
             android:id="@+id/amountEditText"
@@ -37,7 +39,8 @@
             android:textColor="@color/mainFontColor"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/itemEditText" />
+            app:layout_constraintTop_toBottomOf="@+id/itemEditText"
+            android:autofillHints="@string/amountInputText"/>
 
         <EditText
             android:id="@+id/priceEditText"
@@ -51,7 +54,8 @@
             android:textColor="@color/mainFontColor"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/amountEditText" />
+            app:layout_constraintTop_toBottomOf="@+id/amountEditText"
+            android:autofillHints="@string/priceInputText"/>
 
         <EditText
             android:id="@+id/eventEditText"
@@ -65,7 +69,8 @@
             android:textColor="@color/mainFontColor"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/priceEditText" />
+            app:layout_constraintTop_toBottomOf="@+id/priceEditText"
+            android:autofillHints="@string/eventInputText"/>
 
         <EditText
             android:id="@+id/receiverEditText"
@@ -79,7 +84,8 @@
             android:textColor="@color/mainFontColor"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/eventEditText" />
+            app:layout_constraintTop_toBottomOf="@+id/eventEditText"
+            android:autofillHints="@string/receiverInputText"/>
 
         <CheckBox
             android:id="@+id/boughtCheckBox"

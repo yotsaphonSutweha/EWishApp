@@ -23,6 +23,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import nci.yo.ewishapp.DataObjects.WishItem;
 
+
 public class ItemsFragment extends Fragment  {
     private FirebaseFirestore db = FirebaseFirestore.getInstance();
     private CollectionReference itemRef = db.collection("wishes");

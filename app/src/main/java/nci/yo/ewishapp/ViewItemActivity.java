@@ -3,7 +3,9 @@ package nci.yo.ewishapp;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import nci.yo.ewishapp.DataObjects.WishItem;
+import nci.yo.ewishapp.Helper.LocalHelper;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -31,6 +33,11 @@ public class ViewItemActivity extends AppCompatActivity {
     private WishItem editedItem;
 
     @Override
+    protected void attachBaseContext(Context newBase) {
+        super.attachBaseContext(LocalHelper.onAttach(newBase, "en"));
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_view_item);
@@ -41,6 +48,8 @@ public class ViewItemActivity extends AppCompatActivity {
         final EditText receiverEditText = findViewById(R.id.receiverEditText);
         final CheckBox boughtCheckBox = findViewById(R.id.boughtCheckBox);
         final Button editBtn = findViewById(R.id.editButton);
+        final Button checkBtn = findViewById(R.id.checkBtn);
+
         Intent intent = getIntent();
         Bundle extras = intent.getExtras();
         String docPath = extras.getString("DocID");
@@ -104,5 +113,16 @@ public class ViewItemActivity extends AppCompatActivity {
                 });
             }
         });
+
+        checkBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent1 = new Intent(ViewItemActivity.this, AvailableItemsActivity.class);
+                intent1.putExtra("SearchItem", itemName);
+                startActivity(intent1);
+            }
+        });
+
+
     }
 }

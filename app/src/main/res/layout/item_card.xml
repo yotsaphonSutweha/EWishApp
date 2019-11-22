@@ -6,62 +6,62 @@
     android:layout_marginTop="8dp"
     android:layout_marginStart="8dp"
     android:layout_marginEnd="8dp"
-    app:cardBackgroundColor="@color/itemCardColor">
+    >
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@color/itemCardColor"
+        android:id="@+id/itemCardLayout"
         android:padding="8dp">
+
         <TextView
             android:id="@+id/text_view_item"
-            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            android:text="Item"
-            android:layout_toStartOf="@id/text_view_amount"
+            android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
-            android:maxLines="1"
+            android:layout_toStartOf="@id/text_view_amount"
             android:ellipsize="end"
+            android:maxLines="1"
+            android:text="@string/itemCardItemFieldLebel"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:textColor="@color/mainFontColor"
-            />
+            android:textColor="@color/mainFontColor" />
+
         <TextView
             android:id="@+id/text_view_amount"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/itemCardAmountFieldLabel"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-            android:text="Amount"
-            android:textColor="@color/mainFontColor"
-            />
+            android:textColor="@color/mainFontColor" />
+
         <TextView
             android:id="@+id/text_view_price"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
-            android:text="Price"
             android:layout_below="@id/text_view_item"
-            android:textColor="@color/mainFontColor"
-            />
+            android:text="@string/itemCardPriceFieldLabel"
+            android:textColor="@color/mainFontColor" />
 
         <TextView
             android:id="@+id/text_view_receiver"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
-            android:text="Receiver"
             android:layout_below="@id/text_view_price"
-            android:textColor="@color/mainFontColor"
-            />
+            android:text="@string/itemCardReceiverFieldLabel"
+            android:textColor="@color/mainFontColor" />
 
         <TextView
             android:id="@+id/text_view_event"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
-            android:text="Event"
             android:layout_below="@id/text_view_receiver"
-            android:textColor="@color/mainFontColor"
-            />
+            android:text="@string/itemCardEventFieldLabel"
+            android:textColor="@color/mainFontColor" />
     </RelativeLayout>
 
 

@@ -10,4 +10,5 @@
     <color name="mainButtonColor">#F48B94</color>
     <color name="itemCardColor">#DBEBC2</color>
     <color name="mainFontColor">#3A363B</color>
+    <color name="splashScreenColor">#FFB853</color>
 </resources>
